@@ -273,16 +273,16 @@ margin-bottom: 15px;
       color:#fce138;
   }
 
-  .contact-info > * {
-    flex: 1;
-    margin: 15px;
-}
-
   .contact-info {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
   }
+
+  .contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
 
   .contact-info a {
       color:yellow;
@@ -290,15 +290,9 @@ margin-bottom: 15px;
 
   .contact-info iframe {
       height: 400px;
-      width: 400px;
   }
 
   .contact-info div {
-     width: 410px;
-     display: inline-block;
-     vertical-align: top;
-     text-align: left;
-     margin: 30px 0 0 30px;
      color: white;
   }
 
@@ -312,7 +306,6 @@ margin-bottom: 15px;
       font-size: 16px;
       line-height: 1.5;
       font-style: normal;
-      width: 100%;
   }
 
   .contact-form input, .contact-form textarea {
@@ -323,7 +316,7 @@ margin-bottom: 15px;
       color: #024e76;
       width: 100%;
       margin-bottom: 15px;
-      margin-top: 24px;
+      margin-top: 5px;
   }
 
   .contact-form button {
